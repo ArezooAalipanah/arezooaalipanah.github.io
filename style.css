@@ -1,0 +1,17 @@
+html,body,h2,h3,h4,h5,h6 {font-family: 'Times New Roman'}
+h1{font-size: 300%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkviolet;
+    text-align:center;}
+  body{background-color: azure;
+}
+p.def {
+    color:blueviolet;
+}
+#p01 {
+    color: blue;
+    border: 2px solid rgb(230, 176, 207);
+    padding: 30px;
+    margin: 50px;
+
+}
