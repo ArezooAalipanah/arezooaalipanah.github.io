@@ -1,7 +1,7 @@
 html,body,h2,h3,h4,h5,h6 {font-family: 'Times New Roman'}
 h1{font-size: 300%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:teal;
+    color:rgb(7, 218, 218);
     text-align:center;}
-  body{background-color:violet;
+  body{background-color:rgb(255, 220, 255);
 }
