@@ -1,9 +1,9 @@
 html,body,h2,h3,h4,h5,h6 {font-family: 'Times New Roman'}
 h1{font-size: 300%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:darkviolet;
+    color:rgb(89, 0, 255);
     text-align:center;}
-  body{background-color: azure;
+  body{background-color:rgb(255, 218, 255);
 }
 p.def {
     color:blueviolet;
@@ -13,5 +13,25 @@ p.def {
     border: 2px solid rgb(0, 255, 64);
     padding: 30px;
     margin: 50px;
-
 }
+
+a:link {
+    color:rgb(0, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(0, 247, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(0, 255, 13);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(0, 247, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
