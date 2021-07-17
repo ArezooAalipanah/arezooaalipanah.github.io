@@ -61,3 +61,11 @@ a:link {
   li a:hover {
     background-color: #ff00ea;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:"250px" ;
+    height:"250px";
+  }
