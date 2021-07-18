@@ -1,71 +1,56 @@
 html,body,h2,h3,h4,h5,h6 {font-family: 'Times New Roman'}
 h1{font-size: 300%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(89, 0, 255);
+    color:rgb(255, 255, 255);
     text-align:center;}
-  body{background-color:rgb(255, 218, 255);
+  body{background-color:rgb(255, 255, 255);
 }
-p.def {
-    color:blueviolet;
-}
-p.sth {
-    color: blue;
-    border: 2px solid rgb(0, 255, 64);
-    padding: 30px;
-    margin: 50px;
-}
-
-a:link {
-    color:rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  table, th, td {
-    border: 1px solid black;
-  }
   ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type:none;
+    margin:0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff81cf;
+    background-color: #ebebeb;
   }
   
   li {
-    float: left;
+    float:left;
   }
   
   li a {
     display: block;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0.836);
     text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #ff00ea;
+    background-color: #bdbdbd;
   }
+  .about {
+    width:unset;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 20px;
+    overflow: hidden;
+}
 
-  .center {
+.about img {
+    margin-right: 15px;
+    float: left;
+    width:200px;
+    height:200px;
+}
+.about h3,
+.about p{
+    margin-left: 15px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:"250px" ;
-    height:"250px";
-  }
+    margin: 5px 0 0 0;
+}
+
+.contactme {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
