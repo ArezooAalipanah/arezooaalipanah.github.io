@@ -54,3 +54,30 @@ h1{font-size: 300%;
   padding: 20px;
   overflow: hidden;
 }
+
+.books {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.academic {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
+.mountain {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.music {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
