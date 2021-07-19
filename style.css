@@ -40,8 +40,10 @@ h1{font-size: 300%;
     float: left;
     width:200px;
     height:200px;
+    border-radius: 200px;
 }
 .about h3,
+.about h2,
 .about p{
     margin-left: 15px;
     display: block;
