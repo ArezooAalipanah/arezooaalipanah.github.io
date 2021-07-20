@@ -83,3 +83,45 @@ h1{font-size: 300%;
   padding: 20px;
   overflow: hidden;
 }
+
+.res1 img {
+  margin-right: 15px;
+  float: left;
+  width: 800px;
+  height: 500px;
+}
+.res1 h3,
+.res1 h2,
+.res1 p{
+  margin-left: 15px;
+  display: block;
+  margin: 5px 0 0 0;
+}
+
+
+.button1 {
+  background-color: white; 
+  border: 2px solid black;
+  margin: 2px 2px;
+  padding-top: 5px;
+  transition-duration: 0.4s;
+  position: relative;bottom: 7px;
+  cursor: pointer;
+
+}
+.button1 a{
+  color: black; 
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:16px;
+  
+}
+.button1 a:hover{
+  color: white;
+}
+
+.button1:hover {
+  background-color:grey;
+  color: white;
+}
