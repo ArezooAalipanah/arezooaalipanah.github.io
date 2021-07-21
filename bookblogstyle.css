@@ -53,3 +53,27 @@ h1{font-size: 300%;
   display: block;
   margin: 5px 0 0 0;
 }
+
+.list ul{
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b3f8f5;
+}
+
+.list li {
+  float:left;
+}
+
+.list li a {
+  display: block;
+  color: rgba(0, 0, 0, 0.836);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.list li a:hover {
+  background-color: #90fdeb;
+}
