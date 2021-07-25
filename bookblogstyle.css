@@ -77,3 +77,24 @@ h1{font-size: 300%;
 .list li a:hover {
   background-color: #90fdeb;
 }
+
+.book {
+  width:unset;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.book img{
+  border:  solid black;
+  height: 300px;
+  width: 200px;
+  padding: 5px;
+  margin: 25px;
+}
+
+.book h2, h1, p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
