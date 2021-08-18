@@ -146,5 +146,17 @@ ul{
     font-size: larger;
     font-style: italic;
     font-family: Rasa;
+
 }
 
+.abs p{
+    text-decoration-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: black;
+    align-items: center;
+
+}
+.abs h1, cite{
+    color: black;
+}
