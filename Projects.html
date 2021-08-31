@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Arezoo Alipanah [Personal Webpage]</title>
+    <script async defer src="main.js"></script>
+    <script async defer src="./sidebar.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+<header class="header">
+    <button id="menu_btn" class="btn btn--icon">
+        <i class="bi bi-list"></i>
+    </button>
+    <h1>
+        Arezoo Alipanah
+    </h1>
+</header>
+<div class="grapper">
+    <aside class="sidebar">
+        <ul class="menu">
+            <li class="menu__item">
+                <a class="menu__link " href="Home.html">
+                    <i class="bi-house-fill"></i>
+                    home
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="CV.html">
+                    <i class="bi bi-file-earmark-person-fill"></i>
+                    CV
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="Certificates.html">
+                    <i class="bi bi-award"></i>
+                    Certificates
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link menu__link--active" href="Projects.html">
+                    <i class="bi bi-gear"></i>
+                    Projects
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link" href="Abstracts.html">
+                    <i class="bi bi-journal-bookmark"></i>
+                    Abstracts
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link" href="More.html">
+                    <i class="bi bi-person-circle"></i>
+                    More
+                </a>
+            </li>
+
+
+            <li class="menu__item">
+                <a class="menu__link menu__link" href="Gallery.html">
+                    <i class="bi bi-images"></i>
+                    Gallery
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link" href="Home.html#contact">
+                    <i class="bi bi-person-lines-fill"></i>
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="main">
+
+        <cite class="project--cite" >
+            Recent Projects
+        </cite>
+
+
+
+        <div class="project">
+
+            <p class="project--p">
+                <cite class="project--cite" >
+                    RL-value iteration: Frozen Lake
+                </cite><br><br>
+                This project is for value iteration, both state values, and state-action values,
+                for a model-free environment where we have no access to the probabilities in the
+                Frozen lake environment on gym. This project is done for the practical reinforcement learning
+                course held by the Higher School of Economics, Russia.<br>
+                You can see how the agent has learned the right way to the goal in a 8*8 environment form every states:<br><br>
+                <img class="project--img" src="img/project3.png" > <br><br>
+                Here is the GitHub link of this project:
+                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week2_model_based/general_practice_vi.ipynb" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+
+            </p>
+        </div>
+
+        <div class="project">
+
+            <p class="project--p">
+                <cite class="project--cite" >
+                    Deep Cross Entropy Methode:
+                </cite><br><br><br>
+
+                The first part of this project is learning to control an inverted pendulum using cross entropy method on gym environment.<br><br>
+
+                <img class="project--img" src="img/project4.png" > <br><br>
+
+                The second part of the project is for the mountain climbing car to reach the goal on top of the mountain
+                via deep cross entropy method. As it is pictured in the graph bellow you can see that the car learns
+                the best policy and reaches the goal using this method.<br><br><br><br>
+
+                <img class="project--img" src="img/project2.png" > <br><br>
+                Here is the GitHub link of this project:
+                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week1_intro/deep_crossentropy_method.ipynb" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </p>
+        </div>
+
+        <div class="project">
+              
+            <p class="project--p">
+                <cite class="project--cite">
+                    Building a web page like Google Keep
+                </cite><br><br>
+                This project was the Front-end development workshop's project held by "Made in Lobby 2021".
+                The concepts covered were javascript, HTML, and CSS. I was an attendee in this workshop. This project has
+                the aim of making a webpage like "Google Keep." To do so, first adding notes were distinguished using javascript,
+                then some stylings were added like the ones in google keep itself. Here are some pictures of how this webpage would
+                look like in different devices having different sizes.<br><br>
+                This is how the webpage looked finally:<br>
+                <img class="project--img" src="img/project1.JPG"><br><br>
+                Here is the GitHub repository of this project:
+                <a href="https://github.com/ArezooAalipanah/front_ws" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+
+            </p>
+        </div>
+
+        <div class="project">
+
+            <p class="project--p">
+                <cite class="project--cite" >
+                    The Brick Breaker Game by Python,
+                    (CS106A project, Code in place 2020, C. Piech & M. Sahami)
+                </cite><br><br>
+                The main idea behind this project was to use Python merely to creat a game.
+                Here is a demo of how the game works:<br>
+                <iframe class="project--if" src="https://youtu.be/v3M843Jx_6Q"></iframe>
+            </p>
+        </div>
+
+        <div class="project">
+
+            <p class="project--p">
+
+                Some of other projects:<br><br>
+
+
+                <cite class="project--cite" >
+                    Design and Implementation of an Object Avoidance and Path Planning Algorithm for TurtleBot3 in ROS,
+                    (ROS & Gazebo training online course project, Maktabkhooneh)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                    3RPS Parallel Manipulator kinematics, dynamical modeling, and motion/force control by MSC Adams and Matlab,
+                    (Parallel Robots course project, Prof. Hamid D. Taghirad)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                    Designing a Fuzzy Logic Controller for Car Parallel Parking by MATLAB Simulink,
+                    (Fuzzy Logic and Fuzzy Artificial Neural Network Control course project, Prof. Ali Ghaffari)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                    AL5B Serial Manipulator kinematics, dynamical modeling, and motion/force and impedance control by MATLAB,
+                    (Control in Robotics course project, Prof. S. A. A. Moosavian)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                    Designing a program for ordering car prices in a MySQL database, (Advanced Python online course,
+                    Web scrapping project, Maktabkhooneh)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                Car Price Prediction via Linear Regression, SVM, KNN and ANN by MATLAB,
+                (Machine Learning course project, Dr. Babak Nasersharif)
+                </cite><br><br><br><br>
+
+                <cite class="project--cite" >
+                Deep Neural Network for Image Classification,
+                (Neural Networks and Deep Learning online course project, Coursera, Andrew Ng)
+                </cite><br>
+            </p>
+        </div>
+
+
+    </div>
+    <script> </script>
+</div>
+</body>
+</html>
