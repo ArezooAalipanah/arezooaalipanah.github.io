@@ -92,21 +92,92 @@
 
             <p class="project--p">
                 <cite class="project--cite" >
-                    RL-value iteration: Frozen Lake
+                    Building a Deep Q-Network for Training Atari 2600 VCS Breakout
                 </cite><br><br>
-                This project is for value iteration, both state values, and state-action values,
-                for a model-free environment where we have no access to the probabilities in the
-                Frozen lake environment on gym. This project is done for the practical reinforcement learning
-                course held by the Higher School of Economics, Russia.<br>
-                You can see how the agent has learned the right way to the goal in a 8*8 environment form every states:<br><br>
-                <img class="project--img" src="img/project3.png" > <br><br>
+                <img class="project--img" src="img/project9.JPG" > <br><br>
+                In this project, a deep Q-network is implemented using experience replay and target networks to train a 2600 VCS Breakout Atari game.
+                 The coding has been done both in Tensorflow and Pytorch frameworks.
+                 At first, a preprocess on the input images is done, and they are cut to make the process easier with fewer amounts of data.
+                 Then, a greyscale is added to the images to reduce the processing time for training.<br><br>
+                 <img class="project--img" src="img/project5.JPG" > <br><br> 
+                 A frame buffer is considered based on 
+                 <a href="https://arxiv.org/pdf/1312.5602.pdf" target=_blank>this article</a>
+                 to be used on the experience replay.<br>
+                 The CNN network has four dense convolutional layers and one output layer for the Q values. 
+                which would be called on every agent's step.
+                <img class="project--img" src="img/project7.JPG" > <br><br>
+                Using target networks as reference Q-values, Q-learning TD error is computed.<br><br>
+                <img class="project--img" src="img/project8.JPG" > <br><br>
+                 After that, using the Adam Optimizer, the agent has trained for about 75k steps. 
+                 Finally, after reaching a reward of almost 13 or 14 per every life, the training is stopped. 
+                Here you can see the result:
+                <a href="https://youtu.be/C3tqwUvX8P8" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                </a><br><br>
                 Here is the GitHub link of this project:
-                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week2_model_based/general_practice_vi.ipynb" target="_blank">
+                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week4_approx/dqn_atari_pytorch.ipynb" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
 
             </p>
         </div>
+
+
+        <div class="project">
+
+            <p class="project--p">
+                <cite class="project--cite" >
+                    Building a Deep Reinforcement Learning with Advantage Actor-Critic for Atari Kung-Fu Master
+                </cite><br><br>
+                <img class="project--img" src="img/project10.JPG" > <br><br>
+                This project is training an agent for playing Atari Kung-Fu Master gym environment with parallel Advantage Actor-Critic method.<br> 
+                First, four grayscaled frames are stacked and cropped to make the agent interpret the object's velocity. <br>
+                <img class="project--img" src="img/project11.JPG" > <br><br>
+                Then, the agent is built with three convolutional neural layers containing 32 filters and the elu activation function,
+                 followed by a final dense layer with 128 units.<br>
+                 Finally, there are two outputs, one for the actor and one for the critic part, the actor has its units based on the number of actions in the game, 
+                 and the critic is the value predicted which has one unit.  <br>
+                 <img class="project--img" src="img/project12.JPG" > <br><br>
+                 Then, the environment is trained to get the rewards.
+                 The training process is done with ten different environments on parallel to make the training more stable.<br> 
+                 For each of the environments, the agent tries to use this a3c algorithm to improve its rewards.<br>
+                 After reaching a good reward, and a near-zero policy entropy, it is interpreted that the agent has learned the policy.
+    
+                Here you can see the result:
+                <a href="https://youtu.be/A4EvvPbbHXw" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                </a><br><br>
+                Here is the GitHub link of this project:
+                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week5_policy_based/practice_a3c2.ipynb" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+
+            </p>
+        </div>
+
+
+        <div class="project">
+
+            <p class="project--p">
+                <cite class="project--cite" >
+                    Translation of Hebrew words in English(g2p) with a policy-based reinforcement learning method
+                </cite><br><br>
+                Considering words as a sequence of letters, an encoder-decoder architecture is used in this project to convert Hebrew words to their English translations.<br> 
+                After mapping strings to token ids and vice versa, the encoder reads words character by character and outputs code vector, 
+                and the decoder takes that code vector and produces translations character by character. Here minimal Levenshtein distance is used.<br>
+                It measures how many characters we need to add/remove/replace from model translation to make it perfect. <br>
+                Reinforcement learning is employed in this project to translate the words with self-critical sequence training.<br><br>
+
+                <img class="project--img" src="img/project3.png" > <br><br>
+                Here is the GitHub link of this project:
+                <a href="https://github.com/ArezooAalipanah/RL_Examples/blob/main/week6_outro/seq2seq/practice_tf.ipynb" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+
+            </p>
+        </div>
+
+        
 
         <div class="project">
 
