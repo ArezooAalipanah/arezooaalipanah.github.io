@@ -1,146 +1,1140 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="google-site-verification" content="4-Fru1JAlKUWETQzXjziCdVQicvVaDzcLFcsdji_Gy4" />
-    <title>Arezoo Alipanah [Personal Webpage]</title>
-    <script async defer src="main.js"></script>
-    <script async defer src="./sidebar.js"></script>
+    <title>Arezoo Alipanah[Personal Webpage]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Sunshine - Responsive vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Sunshine, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon (2).ico">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-</head>
-<body >
-<header class="header">
-    <button id="menu_btn" class="btn btn--icon">
-        <i class="bi bi-list"></i>
-    </button>
-    <h1>
-        Arezoo Alipanah
-    </h1>
-</header>
-<div class="grapper">
-    <aside class="sidebar">
-        <ul class="menu">
-            <li class="menu__item">
-                <a class="menu__link menu__link--active" href="index.html">
-                    <i class="bi-house-fill"></i>
-                    home
-                </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="CV.html">
-                    <i class="bi bi-file-earmark-person-fill"></i>
-                    CV
-                </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="Certificates.html">
-                    <i class="bi bi-award"></i>
-                    Certificates
-                </a>
-            </li>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
-            <li class="menu__item">
-                <a id="menu" class="menu__link" href="Projects.html">
-                    <i class="bi bi-gear"></i>
-                    Projects
-                </a>
-            </li>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
 
-            <li class="menu__item">
-                <a class="menu__link" href="Abstracts.html">
-                    <i class="bi bi-journal-bookmark"></i>
-                    Abstracts
-                </a>
-            </li>
-
-            <li class="menu__item">
-                <a class="menu__link" href="More.html">
-                    <i class="bi bi-person-circle"></i>
-                    More
-                </a>
-            </li>
-
-
-            <li class="menu__item">
-                <a class="menu__link menu__link" href="Gallery.html">
-                    <i class="bi bi-images"></i>
-                    Gallery
-                </a>
-            </li>
-
-            <li class="menu__item">
-                <a class="menu__link" href="#contact">
-                    <i class="bi bi-person-lines-fill"></i>
-                    Contact
-                </a>
-            </li>
-        </ul>
-    </aside>
-
-    <div class="main">
-        <div class="intro">
-
-            <img class="intro--img" src="img/Arezoo.jpg" alt="Arezoo Alipanah" >
-            <p class="intro--p">
-                <cite class="intro--cite">About Me</cite><br><br>
-                My name is Arezoo Alipanah,<br>
-                I am a Master's student in K. N. Toosi Univerdity of technology
-                where I’m advised by Dr. S. A. A. Moosavian. I am affiliated with
-                ARAS Lab. <br>
-                My research interest includes Reinforcement Learning (RL)
-                , Machine Learning, Deep Learning, Robotics and Human-Robot interaction.
-                I specifically focus on Reinforcement Learning and technical challenges
-                that arise when applying it to real world problems such as robots facing pedestrians.
-                This involves off-policy policy evaluation and safe RL. My Master's thesis is about
-                path and motion planning via DRL on the ROS platform which is implemented on TurtleBot.
-            </p>
-
-            <div class="research">
-                <p class="research--p">
-                    <cite class="intro--cite">Research Area</cite><br><br>
-                    My research is mainly based on Reinforcement learning, improving off-policy methods, and combining on-policy ones with supervised learning.<br> 
-                    I focus on their applications on the mobile robot navigation with just receiving its sensor data in a mapless environment. <br>
-                    The algorithm is going to be implemented on a TurtleBot, and the training process would be based on simulations in Gazebo.<br>
-                    My master's thesis is under the supervision of S. A. A. Moosavian on K.N.Toosi University.<br>
-                    More specifically, I study the following topics:<br><br>
-                    <cite>1. Deep Reinforcement Learning</cite><br><br>
-                    <cite>2. Off-policy policy evaluation and optimization</cite><br><br>
-                    <cite>3. Application of RL on path planning</cite><br><br>
-                    <cite>4. Combination of on-policy methods and supervised learning</cite>
-                </p>
-            </div>
-
-
-        </div>
-
-        <div id="contact" class="contact">
-            <p class="research--p">
-                <cite class="intro--cite">Contact With Me</cite><br><br>
-                <a class="contact--a" href="https://linkedin.com/in/arezoo-alipanah" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a class="contact--a" href="https://github.com/ArezooAalipanah" target="_blank">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a class="contact--a" href="mailto:arezoo.alip@gmail.com" target="_blank">
-                    <i class="bi bi-envelope-fill"></i>
-                </a>
-                <a class="contact--a" href="https://www.goodreads.com/arezooalipanah" target="_blank">
-                    <i class="bi bi-book"></i>
-                </a>
-                <a class="contact--a" href="http://t.me/lily_of_the_nile">
-                    <i class="bi bi-telegram"></i>
-                </a>
-            </p>
-
-        </div>
-
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
     </div>
-    <script> </script>
-</div>
-</body>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="my-photo">
+          <img src="images/my_photo.png" alt="image">
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Arezoo Alipanah</h1>
+          <p class="site-description">Robotics Engineer</p>
+        </div>
+
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Home</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+            </li>
+            <!-- /About Me Subpage link -->
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">About me</a>
+            </li>
+            <!-- /About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+
+          <!-- Social buttons -->
+          <ul class="social-links">
+            <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+            <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+            <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+          </ul>
+          <!-- /Social buttons -->
+        </div>
+        <!-- Navigation & Social buttons -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Arezoo Alipanah</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg_1.jpg);" data-id="home">
+              <div class="home-page-block-bg">
+                <div class="mask"></div>
+              </div>
+              <div class="home-page-block">
+                <div class="v-align">
+                  <h2>Arezoo Alipanah</h2>
+                  <div id="rotate" class="text-rotate">
+                    <div>
+                      <p class="home-page-description">Robotics Engineer</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Reinforcement Learning Researcher</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Python Tutor</p>
+                    </div>
+                  </div>
+
+                  <div class="block end" style="text-align: center">
+                    <ul class="info-list">
+                      <!--li><span class="title">Age</span><span class="value">25</span></li>
+                      <li><span class="title">Address</span><span class="value">88 Some Street, Some Town</span></li -->
+                      <li><span class="title">e-mail</span><span class="value"><a href="mailto:arezoo.alip@gmail.com">arezoo.alip@gmail.com</a></span></li>
+                      <li><span class="title">Phone</span><span class="value">+0098 914 454 9503</span></li>
+                      <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">About Me</h2>
+                <h5 class="section-description">Researcher, Programmer, Thinker, Creative Doer</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="general-info">
+                    <h3>I am a Research Assistant @ K. N. Toosi University of Technology</h3>
+                    <p>My research is mainly based on Reinforcement learning implementation in robotic systems, improving off-policy methods, and combining on-policy ones with supervised learning. 
+                      Currently, my main focus is on the applications of deep reinforcement learning on mobile robot navigation via using sensor data in a mapless environment.
+                      My job is mostly simulation-based and done via ROS(Robot Operating System) in the Gazebo environment. 
+                      My Master's thesis was under the supervision of S. A. A. Moosavian at K.N.Toosi University.
+                      More specifically, I study the following topics:</p>
+                    <p>1. Deep Reinforcement Learning</p>
+                    <p>2. Off-policy policy evaluation and optimization</p>
+                    <p>3. Application of RL on path planning</p>
+                  
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Motto (some of my favourite book quotes)</h3>
+                  </div>
+                  <div class="testimonials owl-carousel">
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"What is a person, if not the marks they leave behind?"</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonila_photo_2.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">V.E. Schwab</p>
+                          <p class="testimonial-firm">The Invisible Life of Addie LaRue</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item" style="width:100%">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"So we'll train, Feyre, until the last possible day. Because we never know if just one extra hour will make thedifference."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonial_photo_1.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Sarah J. Maas</p>
+                          <p class="testimonial-firm">A Court of Wings and Ruin</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"We've all got both light and dark inside us. What matters is the part we choose to act on. That's who we really are."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonila_photo_3.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">J.K. Rowling </p>
+                          <p class="testimonial-firm">Harry Potter and the Order of the Phoenix</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"Somewhere inside all of us is the power to change the world."</p>
+                        </div>
+                      </div>            
+                      <!-- /Testimonial Content -->  
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonila_photo_4.png" alt="">
+                        </div>              
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Roald Dahl</p>
+                          <p class="testimonial-firm">Matilda</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->               
+                    </div>
+                    <!-- End of Testimonial 2 -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Services block -->
+              <div class="block-title">
+                <h3>Specialities</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/1.png" alt="">
+                      <h4>Robotics Engineer</h4>
+                      <p>I usually consider my robot simulations as "my children." Always captivated with how much I can do with ROS, I am eager to test different algorithms in different robots and help them to be a help to humanity.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/management.png" alt="">
+                      <h4>Programmer</h4>
+                      <p>Since the day I was able to print that "Hello World!" expression, I have never found myself tired of coding. Sometimes it even becomes my comfort zone since I go so concentrated that I forget what's happening in the world.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/copywrite.png" alt="">
+                      <h4>Researcher</h4>
+                      <p>Always fascinated by solving new challenges and finding better solutions for different problems, I am in love with going deep into different areas and trying to contribute as much as possible.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/consultant.png" alt="">
+                      <h4>Tutor</h4>
+                      <p>I used to be a section leader for Python in Stanford Code place. Once a student mentioned that I have made him "believe in himself, and now he really can code." since then, I have tried to be devoted to helping others in areas that are my specialties.</p>
+                    </div>
+                  </div>
+                </div>
+                
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/creativity.png" alt="">
+                      <h4>Content Creator</h4>
+                      <p>Sharing my experiences and telling stories is always so fun to me, which sometimes leads me to post commentary videos or book reviews on YouTube.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/Education-12.png" alt="">
+                      <h4>Reader</h4>
+                      <p>Always eager to dive into new worlds, people usually find me with either a book in my hand or an audiobook in my ears.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/Education-01.png" alt="">
+                      <h4>Translator</h4>
+                      <p>Being a bilingual (Persian and Azeri) alongside proficiency in English has allowed me to create a bridge between these languages and contribute to helping others to cross this bridge:)</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/6.png" alt="">
+                      <h4>Gamedev Hobbyist</h4>
+                      <p>Interested in making my dream game, I sometimes spend time on game development with Unity and Godot.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <!-- End of Services block -->
+
+              <!-- Clients block -->
+              <div class="block-title">
+                <h3>Have Had a Role in:</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="https://en.sbu.ac.ir/" target="_blank"><img src="images/clients/client_1.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="https://www.kntu.ac.ir/" target="_blank"><img src="images/clients/client_2.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="https://codeinplace.stanford.edu/" target="_blank"><img src="images/clients/client_3.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="https://transis.me/" target="_blank"><img src="images/clients/client_4.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="https://www.youtube.com/creators/" target="_blank"><img src="images/clients/client_5.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <!--div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image"></a>
+                  </div>
+                </div-->
+              </div>
+              <!-- End of Clients block -->
+
+              <!-- Fun facts block -->
+              <div class="block-title">
+                <h3>Fun Facts</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg"> 
+                    <i class="pe-7s-icon pe-7s-smile"></i>
+                    <h4>Happy Students</h4>
+                    <span class="fun-value">78</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-alarm"></i>
+                    <h4>Working Hours</h4>
+                    <span class="fun-value">5,259</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg"> 
+                    <i class="pe-7s-icon pe-7s-bookmarks"></i>
+                    <h4>Boooks Read</h4>
+                    <span class="fun-value">300</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-date"></i>
+                    <h4>Years of Study</h4>
+                    <span class="fun-value">19</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun fucts block -->
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Resume</h2>
+                <!--h5 class="section-description">7 Years of Experience</h5-->
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2019-2022</h5>
+                      <h4 class="event-name">M.Sc. in Mechanical Engineering, Dynamics and Control</h4>
+                      <span class="event-description">K. N. Toosi University of Technology</span>
+                      <p>Overall GPA: 17.87/20 (4.0/4.0)</p>
+                      <p>Thesis: Mobile Robot's Path Planning in Dynamic Environments With Machine Learning</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2015-2019</h5>
+                      <h4 class="event-name">B.Sc. in Mechanical Engineering</h4>
+                      <span class="event-description">Shahid Beheshti University</span>
+                      <p>Overall GPA: 17.58/20 (3.77/4.0)</p>
+                      <p>Thesis: Bearing Fault Diagnosis Using Machine Learning</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2011-2015</h5>
+                      <h4 class="event-name">Diploma in Mathematics and Physics</h4>
+                      <span class="event-description">National Organization for Development of Exceptional Talents (NODET)</span>
+                      <p>Total GPA: 19.49/20</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Experience</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2020 - Current</h5>
+                      <h4 class="event-name">Research Assistant</h4>
+                      <span class="event-description">Advanced Robotics and Automated Systems (ARAS) Laboratory</span>
+                      <p>Prof. S.A.A. Moosavian </p>
+                      <p>Research Area: Reinforcement Learning, Path Planning, Robotics, and Control</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2020 -2022</h5>
+                      <h4 class="event-name">Graduate Teaching Assistant</h4>
+                      <span class="event-description">KNTU</span>
+                      <p>Teaching assistant of Control in Robotics, Prof. S. A. A. Moosavian </p>
+                      <p>Teaching assistant of Dynamics, Prof. S. A. A. Moosavian</p>
+                      <p>Teaching assistant of Advanced Engineering Mathematics, Dr. S. H. Sadati</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2021</h5>
+                      <h4 class="event-name">Python Tutor</h4>
+                      <span class="event-description">Code in Place</span>
+                      <p>This online course was offered by Stanford University during the COVID-19 pandemic. The course is a 6-week introduction to Python programming using materials from the first half of Stanford’s CS106A course. As a volunteer section leader, I prepared and taught a weekly discussion section of 8-10 students to supplement professors' lectures.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Robotics Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>ROS</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>Gazebo</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>MSC Adams</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-3"></div>
+                    </div> 
+
+                    <h4>SOLIDWORKS</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div> 
+                  </div>
+
+                  <div class="block-title">
+                    <h3>Coding Skills and Deep Learning Frameworks:</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Python</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>MATLAB</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>Unix shell scripts</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>JavaScript(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>C#(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>C++(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>TensorFlow</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>PyTorch(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+
+                    
+                  </div>
+
+
+                  <div class="block-title">
+                    <h3>Other Skills: </h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>HTML</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>CSS(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>LaTeX</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div> 
+
+                    <h4>Microsoft Office</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>Adobe Photoshop(some uses)</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>Adobe Premiere Pro</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div>
+
+                    <h4>Unity</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+
+
+                </div>
+              </div>
+
+
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="#">Download CV</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
+
+
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">Some of My Works</h5>
+              </div>
+
+              <!-- Portfolio Content -->
+              <div class="portfolio-content">
+                            
+                <!-- Portfolio filter -->
+                <ul id="portfolio_filters" class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="media">Research</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="illustration">Reinforcement Learning</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                  </li>
+                </ul>
+                <!-- End of Portfolio filter -->
+
+                <!-- Portfolio Grid -->
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                  <!-- Portfolio Item 1 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/1.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 1 -->
+
+                  <!-- Portfolio Item 2 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/2.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 2 -->
+
+                  <!-- Portfolio Item 3 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                      <img src="images/portfolio/3.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 3 -->
+
+                  <!-- Portfolio Item 4 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/4.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 4 -->
+
+                  <!-- Portfolio Item 5 -->
+                  <figure class="item" data-groups='["all", "illustration"]'>
+                    <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                      <img src="images/portfolio/5.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 5 -->
+
+                  <!-- Portfolio Item 6 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/6.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 6 -->
+
+                  <!-- Portfolio Item 7 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/7.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 7 -->
+
+                  <!-- Portfolio Item 8 -->
+                  <figure class="item" data-groups='["all",  "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/8.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 8 -->
+
+                  <!-- Portfolio Item 9 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                      <img src="images/portfolio/9.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 9 -->
+
+                  <!-- Portfolio Item 10 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/10.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 10 -->
+
+                  <!-- Portfolio Item 11 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                      <img src="images/portfolio/11.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 11 -->
+
+                  <!-- Portfolio Item 12 -->
+                  <figure class="item" data-groups='["all","media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/12.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 12 -->
+                </div>
+                <!-- /Portfolio Grid -->
+
+              </div>
+              <!-- /Portfolio Content -->
+
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page pt-page-5" data-id="blog">
+              <div class="section-title-block">
+                <h2 class="section-title">Blog</h2>
+                <h5 class="section-description">My Diary</h5>
+              </div>
+              <div class="blog-masonry">
+                <!-- Blog Post 1 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Travel</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 1 -->
+
+                <!-- Blog Post 2 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">jQuery</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 2 -->
+
+                <!-- Blog Post 3 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Sport</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Designed for Everyone, Everywhere</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 3 -->
+
+                <!-- Blog Post 4 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 4 -->
+
+                <!-- Blog Post 5 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">                        
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 5 -->
+
+                <!-- Blog Post 6 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">HTML5</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 6 -->
+
+                <!-- Blog Post 7 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Design</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Navigation for Mega-Sites</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 7 -->
+
+                <!-- Blog Post 8 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 8 -->
+              </div>
+            </section>
+            <!-- End Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-6" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Get in Touch</h3>
+                  </div>
+                  <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-map-marker"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Los Angeles, USA</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>arezoo.alip@gmail.com</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-call"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>+123 654 78900</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-check"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Freelance Available</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Contact Form</h3>
+                  </div>
+                  <form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                      <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-user"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-envelope"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-comment"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+
+                      <input type="submit" class="button btn-send" value="Send message">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
 </html>
