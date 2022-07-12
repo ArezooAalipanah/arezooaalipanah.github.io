@@ -1421,12 +1421,27 @@
 
                   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqknvwrp" method="post">
                     <fieldset id="fs-frm-inputs">
-                      <label for="full-name">Full Name</label>
-                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                      <label for="email-address">Email Address</label>
-                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                      <label for="message">Message</label>
-                      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                      <div class="controls">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon fa fa-user"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+  
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon fa fa-envelope"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+  
+                        <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon fa fa-comment"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
                       <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                     </fieldset>
                     <input type="submit" value="Submit">
