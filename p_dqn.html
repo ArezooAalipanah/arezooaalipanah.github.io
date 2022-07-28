@@ -14,18 +14,21 @@
             <div class="col-sm-7 col-md-7 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <img src="images/portfolio/portfolio_details/1_1.jpg" alt="">
+                        <img src="images/portfolio/portfolio_details/p_dq_1.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/portfolio/portfolio_details/1_2.jpg" alt="">
+                        <img src="images/portfolio/portfolio_details/p_dq_2.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/portfolio/portfolio_details/1_3.jpg" alt="">
+                        <img src="images/portfolio/portfolio_details/p_dq_3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/portfolio_details/p_dq_4.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                  <iframe class="embed-responsive-item" src="https://youtu.be/C3tqwUvX8P8?autoplay=0"></iframe>
                 </div>
 
                 <!--
@@ -56,11 +59,19 @@
                 </div>
                 <ul class="project-general-info">
                     <li><p><i class="fa fa-user"></i> Arezoo Alipanah</p></li>
-                    <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.arezooaalipanah.github.io</a></p></li>
-                    <li><p><i class="fa fa-calendar"></i> 25 december, 2020</p></li>
+                    <li><p><i class="fa fa-globe"></i> <a href="https://github.com/ArezooAalipanah/RL_Examples/tree/main/week4_approx" target="_blank">Github repository</a></p></li>
+                    <li><p><i class="fa fa-calendar"></i> 2021</p></li>
                 </ul>
 
-                <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p class="text-justify">In this project, a deep Q-network is implemented using experience replay and target networks to 
+                    train a 2600 VCS Breakout Atari game. The coding has been done both in Tensorflow and Pytorch frameworks. 
+                    At first, a preprocess on the input images is done, and they are cut to make the process easier with fewer amounts of data. 
+                    Then, a greyscale is added to the images to reduce the processing time for training. 
+                    A frame buffer is considered based on this article to be used on the experience replay. 
+                    The CNN network has four dense convolutional layers and one output layer for the Q values. 
+                    which would be called on every agent's step. Using target networks as reference Q-values, Q-learning TD error is computed. 
+                    After that, using the Adam Optimizer, the agent has trained for about 75k steps. Finally, after reaching a reward of almost 
+                    13 or 14 per every life, the training is stopped.</p>
                 <!-- /Project Description -->
 
                 <!-- Technology -->
@@ -69,16 +80,16 @@
                         <h3>Technology</h3>
                     </div>
                     <ul class="tags">
-                        <li><a>HTML5</a></li>
-                        <li><a>CSS3</a></li>
-                        <li><a>jQuery</a></li>
-                        <li><a>Ajax</a></li>
-                        <li><a>PHP5</a></li>
+                        <li><a>Jupyter Notebook</a></li>
+                        <li><a>Pytorch</a></li>
+                        <li><a>Python</a></li>
+                        <li><a>TensorFlow</a></li>
+                        <li><a>Keras</a></li>
                     </ul>
                 </div>
                 <!-- /Technology -->
 
-                <!-- Share Buttons -->
+                <!-- Share Buttons 
                 <div class="btn-group share-buttons">
                     <div class="block-title">
                         <h3>Share</h3>
@@ -87,7 +98,9 @@
                     <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
                     <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
                 </div>
-                <!-- /Share Buttons -->
+                </Share Buttons -->
+
+                
             </div>
         </div>
     </div>
